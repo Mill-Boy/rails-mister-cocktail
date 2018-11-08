@@ -1,0 +1,7 @@
+<h1>Good <strong>choice!</strong> We also recommend this one :)</h1>
+  <ul>
+    <li class="cocktail">
+     <%= @cocktail.name %>
+     <%= link_to "delete", cocktail_path(@cocktail), method: :delete, class: "btn btn-danger delete" %>
+    </li>
+  </ul>

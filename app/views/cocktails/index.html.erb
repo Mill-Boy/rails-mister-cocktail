@@ -1,0 +1,12 @@
+  <div class="img">
+    <h1 class="title">Welcome to our <strong>Cocktails</strong> list! 🌈</h1>
+    <h2 class="title"> A place where all people from all worlds are welcome.</h2>
+    <p class="title btn btn-primary">JOIN us TONIGHT! </p>
+  </div>
+  <% @cocktails.each do |cocktail|%>
+  <h2>
+    <ul>
+      <li><%= cocktail.name %></li>
+    </ul>
+  </h2>
+  <% end %>
